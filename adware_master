@@ -14,7 +14,7 @@
 
 
 # Custom host records are listed here.
-*.apple-dns.net
+mask.apple-dns.net
 
 
 # End of custom host records.
