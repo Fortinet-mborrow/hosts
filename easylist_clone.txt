@@ -45857,4 +45857,7 @@ samsungacr.com
 51.89.187.142
 51.89.187.143
 88.42.84.136
+! Altice / Optimum / CableVision injects ads
+! https://github.com/ryanbr/fanboy-adblock/issues/816
+|167.206.10.148
 167.206.10.148
