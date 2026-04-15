@@ -29,7 +29,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add adblock_master_updated .last_hosts_date
+          git add adblock_master .last_hosts_date
           # Only commit when there is actually something new.
           git diff --cached --quiet || git commit -m "chore: update adblock_master [skip ci]"
           git push
