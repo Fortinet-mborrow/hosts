@@ -10,15 +10,13 @@ jobs:
   update-hosts:
     runs-on: ubuntu-latest
     
-
     permissions:
       contents: write # Needed to commit the output file back to the repo.
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
-        runs.using: node24
-
+        
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
