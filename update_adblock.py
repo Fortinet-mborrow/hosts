@@ -15,7 +15,7 @@ import urllib.request
 from pathlib import Path
 
 HOSTS_URL = "https://raw.githubusercontent.com/StevenBlack/hosts/master/hosts"
-OUTPUT_FILE = Path("adblock_master_updated")
+OUTPUT_FILE = Path("adblock_master")
 STATE_FILE = Path(".last_hosts_date")
 
 DATE_PATTERN = re.compile(r"^# Date:\s+(.+)$", re.MULTILINE)
