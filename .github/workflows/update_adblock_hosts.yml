@@ -9,6 +9,7 @@ on:
 jobs:
   update-hosts:
     runs-on: ubuntu-latest
+    runs.using: node24
 
     permissions:
       contents: write # Needed to commit the output file back to the repo.
